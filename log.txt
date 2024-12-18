@@ -1,0 +1,326 @@
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 31, in execute
+    result = cursor.execute(sql)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1136, "Column count doesn't match value count at row 1")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 31, in execute
+    result = cursor.execute(sql)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1136, "Column count doesn't match value count at row 1")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 31, in execute
+    result = cursor.execute(sql)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1136, "Column count doesn't match value count at row 1")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 31, in execute
+    result = cursor.execute(sql)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '10001' for key 'student_number'")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 48, in find
+    cursor.execute(sql)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selectstudent_number,student_name,chinese,math,english from student where where ' at line 1")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 48, in find
+    cursor.execute(sql)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selectstudent_number,student_name,chinese,math,english from student  where stude' at line 1")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 48, in find
+    cursor.execute(sql)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python\課程\venv\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selectstudent_number,student_name,chinese,math,english from student  where stude' at line 1")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 48, in find
+    cursor.execute(sql)
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python3.11\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python3.11\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'englishchinese' in 'field list'")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 48, in find
+    cursor.execute(sql)
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python3.11\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python3.11\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'student order by chinese' at line 1")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 48, in find
+    cursor.execute(sql)
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python3.11\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python3.11\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from student' at line 1")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 48, in find
+    cursor.execute(sql)
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python3.11\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python3.11\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from student' at line 1")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 48, in find
+    cursor.execute(sql)
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python3.11\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python3.11\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AVG(math) as Average, from student' at line 1")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 48, in find
+    cursor.execute(sql)
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python3.11\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python3.11\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AVG(math) as Average, from student' at line 1")
+Traceback (most recent call last):
+  File "E:\python\課程\Ch15\mysql_utl.py", line 48, in find
+    cursor.execute(sql)
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python3.11\Lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "E:\python3.11\Lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "E:\python3.11\Lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AVG(math) as Average, from student' at line 1")
